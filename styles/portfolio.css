@@ -32,6 +32,32 @@ p{
     font-size: 16px;
     line-height: 30px;
 }
+nav{
+    padding: 20px 0;
+}
+nav ul{
+    padding: 0;
+    margin: 0;
+}
+nav li{
+    display: inline;
+    list-style: none;
+    line-height: 42px;
+    margin-left: 15px;
+}
+nav a{
+    text-decoration: none;
+    color: #272142B2;
+}
+nav a:hover, nav li.active a{
+    color: var(--secondary-color);
+    transition: all 100ms ease-in-out;
+    color: var(--secondary-color);
+}
+
+.logo{
+    max-height: 40px;
+}
 
 .hero {
     background-color: var(--branding-color);
@@ -53,8 +79,11 @@ p{
     color: #422121;
     opacity: 100%;
 }
+.container{
+      padding: 12px;
+      }
 .content-container{
-    padding: 260px 20px;
+    padding: 20px 20px;
 }
 .content{
     margin: 30px;
@@ -113,6 +142,10 @@ p{
     .content{
         text-align: center;
         padding: 0;
+    }
+    nav a {
+        font-size: 12px;
+        
     }
 
 }
